@@ -1,0 +1,9 @@
+server:
+  port: 9090
+ 
+eurekaServer:
+  port: 6662
+feign:
+  client:
+    provide:
+      name: configtest-feign-local
